@@ -1,4 +1,11 @@
 
+body{
+	padding: 0px;
+    
+    border: 0px;
+    flex-flow: row wrap;  
+}
+
 header{
 	background-color: #5b7989;
 	border-top-left-radius: 10px;
@@ -6,7 +13,7 @@ header{
 	width: 100%;
 	display:flex;        
     flex-flow: row wrap;      /* los div dentro del header se acoplen uno al lado de otro y si no caben se ponen uno debajo de otro*/
-    
+
     /*position: fixed;   /* la caja del header se fja a 0 pixeles del borde superior de la pantala*/
     /*top: 0px;*/
     
@@ -30,5 +37,21 @@ header{
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
+}
+
+#fotop {
+	background-color: #82c3a6;
+	text-align: center;
+
+}
+
+
+section{
+
+}
+img.foto1{
+	width: 80%;
+	padding: 40px;
+	
 }
 
