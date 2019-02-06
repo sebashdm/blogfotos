@@ -46,12 +46,44 @@ header{
 }
 
 
-section{
 
-}
 img.foto1{
 	width: 80%;
 	padding: 40px;
+	filter:blur(30%);
+
 	
 }
 
+ .seccion3{
+	background-color: #d5c75f;
+	display: flex;
+
+}
+
+#foto2{
+	width: 50%;
+	text-align: center;
+
+}
+
+#foto3{
+	width: 50%;
+	text-align: center;
+}
+
+img.paisaje{
+	width: 80%;
+	border: 2px solid black;
+	margin: 100px;
+    box-shadow: 5px 10px  #82c3a6 ;
+}
+
+img.retrato{
+	width: 80%;
+	border: 2px solid black;
+	box-shadow: #82c3a6 ;
+	height: 420px;
+	margin:100px;
+	box-shadow: 5px 10px  #82c3a6 ;
+}
