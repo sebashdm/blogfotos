@@ -74,16 +74,40 @@ img.foto1{
 
 img.paisaje{
 	width: 80%;
-	border: 2px solid black;
 	margin: 100px;
-    box-shadow: 5px 10px  #82c3a6 ;
+	transition: 1s;
+  
+ 
 }
 
 img.retrato{
 	width: 80%;
-	border: 2px solid black;
-	box-shadow: #82c3a6 ;
 	height: 420px;
 	margin:100px;
-	box-shadow: 5px 10px  #82c3a6 ;
+	transition: 1s;
 }
+
+
+
+ img.paisaje:hover{
+ transform: rotate(10deg);
+ box-shadow: 5px 10px  #82c3a6;
+ border: 2px solid black;
+
+}
+
+
+img.retrato:hover{
+	transform: translate(20px, -5px);
+	box-shadow: 5px 10px  #82c3a6;
+    border: 2px solid black;
+  
+}
+
+
+
+
+
+
+
+
