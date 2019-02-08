@@ -1,10 +1,17 @@
 
+@font-face {
+font-family: "Dancing Script";
+src: url(fonts/DancingScript-Regular.ttf) format("truetype");
+}
 body{
 	padding: 0px;
-    
-    border: 0px;
-    flex-flow: row wrap;  
+     border: 0px;
+    flex-flow: row wrap; 
+    font-family: Dancing Script;
+    background-color: #02010a;
 }
+
+
 
 header{
 	background-color: #5b7989;
@@ -19,16 +26,34 @@ header{
     
 }
 
+footer{
+	background-color: #C6d5c5;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+     display: flex;
+}
+
+.contenido{
+	width: 900px;
+	margin-left: 25%;
+	
+}
+
 #titulo {
 	color: white;
 	text-shadow: 2px 2px #02010a;
-	width: 70%;
+	width: 65%;
+	padding: 20px;
+
 
 }
 
 #menu {
-	width: 30%;
-	margin-top:15px;
+	width: 25%;
+	margin-top:30px;
 	text-align:  center;
 	word-spacing: 20px;
 }
@@ -104,6 +129,44 @@ img.retrato:hover{
   
 }
 
+#b1{
+	width: 20%;
+    padding: 2%;
+    font-size: 20px;
+}
+#b2{
+	width: 20%;
+	padding: 2%;
+}
+
+#b3{
+	width: 20%;
+	padding: 2%;
+
+}
+#b3 a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+#b4{
+	width: 20%;
+	padding: 2%;
+	text-align: center;
+
+}
+
+#b2 p{
+	font-size: 20px;
+}
+#b4 p{
+	font-size: 20px;
+}
+
+footer h2{
+	text-align: center;
+}
 
 
 
