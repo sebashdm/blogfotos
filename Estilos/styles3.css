@@ -49,41 +49,91 @@ header{
 }
 
 
-.seccion3{
+
+
+
+
+.Galeria{
 	background-color: #d5c75f;
 	display: flex;
 
 }
 
-#foto2{
-	width: 20%;
-	
+#Columna1{
+	width: 32%;
+	text-align: center;
 
 
 }
 
-#foto3{
-	width: 20%;
+#Columna2{
+	width: 32%;
+    text-align: center;
 	
 }
 
+#Columna3{
+ 
+    width: 32%;
+    text-align: center;
+  
 
-img.paisaje{
-	width: 80%;
-	
-	transition: 1s;
+}
+
+
+img.foto1{
+	width: 200px;
 	box-shadow: 2px 2px #02010a;
-     margin: 100px 100px 100px 75px;
+    margin:20px;
+    filter: blur(10px);
+    height: 180px;
      
 }
 
-img.retrato{
+img.foto2{
 	width: 80%;
-	height: 185px;
-	margin:100px 200px 100px 100px;
-	transition: 1s;
 	box-shadow: 2px 2px #02010a;
+	margin:20px;
+	filter:grayscale(100%);
+	height: 180px;
+
 }
+
+img.foto3{
+	width: 80%;
+	box-shadow: 2px 2px #02010a;
+	margin:20px;
+	filter:grayscale(100%);
+   
+     
+}
+
+img.foto4{
+	width: 80%;
+	box-shadow: 2px 2px #02010a;
+	margin:20px;
+	height: 180px;
+}
+
+img.foto5{
+	width: 80%;
+	box-shadow: 2px 2px #02010a;
+	margin:20px;
+	filter: sepia(90%);
+	height: 180px;
+   
+     
+}
+
+img.foto6{
+	width: 80%;
+	box-shadow: 2px 2px #02010a;
+	margin:20px;
+	filter:grayscale(100%);
+	height: 180px;
+}
+
+
 
 
 

@@ -177,6 +177,47 @@ footer h2{
 
 
 
+@-webkit-keyframes animacion1 
+
+
+{
+
+0% {
+position: relative;
+margin-top:  : 150%;
+}
+
+
+
+60% {
+position: relative;
+margin-top: : -5%;
+}
+
+
+
+
+100% {
+position: relative;
+margin-top: : 0%;
+}
+}
+
+
+
+
+header{
+animation: animacion1 1s ;
+
+
+}
+
+
+
+
+
+
+
 
 
 
