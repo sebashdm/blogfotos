@@ -11,7 +11,10 @@ body{
     background-color: #02010a;
 }
 
-
+.contenido{
+	width: 900px;
+	margin-left: 25%;
+	}
 
 header{
 	background-color: #5b7989;
@@ -23,23 +26,6 @@ header{
 
     /*position: fixed;   /* la caja del header se fja a 0 pixeles del borde superior de la pantala*/
     /*top: 0px;*/
-    
-}
-
-footer{
-	background-color: #C6d5c5;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-     display: flex;
-}
-
-.contenido{
-	width: 900px;
-	margin-left: 25%;
-	
 }
 
 #titulo {
@@ -47,8 +33,6 @@ footer{
 	text-shadow: 2px 2px #02010a;
 	width: 65%;
 	padding: 20px;
-
-
 }
 
 #menu {
@@ -64,41 +48,25 @@ footer{
 	font-size: 20px;
 }
 
-#fotop {
-	background-color: #82c3a6;
-	text-align: center;
-	box-shadow: 2px 2px #02010a;
 
-}
-
-
-
-img.foto1{
-	width: 80%;
-	margin: 40px;
-	filter:blur(30%);
-	box-shadow: 2px 2px #02010a;
-
-	
-}
-
- .seccion3{
+.seccion3{
 	background-color: #d5c75f;
 	display: flex;
 
 }
 
 #foto2{
-	width: 45%;
+	width: 20%;
 	
 
 
 }
 
 #foto3{
-	width: 45%;
+	width: 20%;
 	
 }
+
 
 img.paisaje{
 	width: 80%;
@@ -119,20 +87,14 @@ img.retrato{
 
 
 
- img.paisaje:hover{
- transform: rotate(10deg);
- box-shadow: 5px 10px  #82c3a6;
- border: 2px solid black;
-
-}
-
- 
-
-img.retrato:hover{
-	transform: translate(20px, -5px);
-	box-shadow: 5px 10px  #82c3a6;
-    border: 2px solid black;
-  
+footer{
+	background-color: #C6d5c5;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+     display: flex;
 }
 
 #b1{
@@ -173,10 +135,3 @@ img.retrato:hover{
 footer h2{
 	text-align: center;
 }
-
-
-
-
-
-
-
