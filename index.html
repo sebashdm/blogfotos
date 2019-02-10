@@ -3,22 +3,22 @@
 <head>
 	<title>Blog de fotos</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width" user-scalable="no">
+<meta name="viewport" content="width=device-width, user-scalable=no">
 
 <link rel="stylesheet" type="text/css" href="Estilos/styles.css">
 
 </head>
 <body>
  
- <div class="contenido">
- <header>
+ <div class="wrapper">
+ <header class="c1">
  	  
- 	  <div id="titulo">
+ 	  <div class="b1" id="titulo">
         <h1>Comenzando con la fotografía</h1>
       </div>
-      <div id="menu">
+      <div  class="b2" id="menu">
          <p>
-          <a href="">Inicio</a>
+          <a id="inicio" href="">Inicio</a>
           <a href="paisajes.html">Paisajes</a>
           <a href="retratos.html">Retratos</a>
          </p>
@@ -26,26 +26,31 @@
  </header>
 
 
- <section>
- 	 <div id="fotop">
+ 
+ <section class="c2">
+ 	 <div class="b3" id="fotop">
  	 	<picture>
-          <img  class="foto1" src="Imagenes/foto1.jpg" alt="Cabo_Tiburon">
+          <img  class="foto1" src="Imagenes/fotop.jpg" alt="Cabo_Tiburon" width="100%">
  	 	</picture>
  	 </div>
  </section>
 
 
- <section class="seccion3">
- 	<div id ="foto2">
+ <section id= "seccion3" class="seccion3">
+ 	<div class="b4" id ="foto2">
  		<picture>
- 			<img class="paisaje" src="Imagenes/paisaje.jpg" alt="cienaga_de_San_Andres">
+ 			<img class="paisaje" id="paisaje" src="Imagenes/paisaje.jpg" alt="cienaga_de_San_Andres" width="100%">
+ 			<figcaption><strong><u>Paisajes</u></strong> </figcaption> 
  		</picture>
+ 		
    </div>
   
-   <div id="foto3">
+   <div class="b5" id="foto3">
      	<picture>
-   		    <img class="retrato" src="Imagenes/retrato.jpg" alt="Sebastian Conduciendo Metro">
+   		    <img class="retrato" id="retrato" src="Imagenes/retrato.jpg" alt="Sebastian Conduciendo Metro" width="100%">
+   		    <figcaption><strong><u>Retratos</u></strong></figcaption>
    	   </picture>
+   	  
    </div>
 </section>
 
@@ -53,7 +58,7 @@
 
 <footer class="seccion4">
 	
-	<div id="b1">
+	<div class="b6" id="b1">
 		<h2>Contacto</h2>
 		<p>Sebashdm@gmail.com<br>
 		Cra64A #25-114 Medellin(Colombia)<br>
@@ -61,28 +66,28 @@
 		
 	</div>
     
-	<div id="b2">
+	<div class="b7" id="b2">
 		 <h2>Términos</h2>
 		 <p>Conoce nuestros terminos y condiciones..</p>
 	</div>
 	
 
 
-	<div id="b3">
+	<div class="b8"id="b3">
 		<h2>Redes Sociales</h2>
 	<p><img src="Imagenes/facebook.png" style="width: 25px; height: 25px;"><a href="https://www.facebook.com/sebas.dumms">Sebastián Hernández Caro</a><br>
 		<img src="Imagenes/instagram.png"style="width: 25px; height: 25px;"> <a href="https://www.instagram.com/sebashdm19/">Sebashdm19</a><br>
 		<img src="Imagenes/twitter.png"style="width: 25px; height: 25px;"> <a href="https://twitter.com/zebaz161?lang=es">@zebaz161</a></p>
 	</div>
 	
-	<div id="b4">
+	<div class="b9" id="b4">
 		<h2>Derechos Reservados</h2>
-		<p>©copyright-2020</p>
+		<p>©copyright-2019</p>
 	</div>
 
 </footer>
-</div>
 
+</div>
 
 
 </body>

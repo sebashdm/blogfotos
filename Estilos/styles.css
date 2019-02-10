@@ -36,11 +36,8 @@ footer{
      display: flex;
 }
 
-.contenido{
-	width: 900px;
-	margin-left: 25%;
-	
-}
+
+
 
 #titulo {
 	color: white;
@@ -60,8 +57,11 @@ footer{
 
 #menu a{
 	color: white;
-	text-decoration: none;
 	font-size: 20px;
+}
+
+#inicio{
+	text-decoration: none;
 }
 
 #fotop {
@@ -78,6 +78,7 @@ img.foto1{
 	margin: 40px;
 	filter:blur(30%);
 	box-shadow: 2px 2px #02010a;
+   
 
 	
 }
@@ -85,36 +86,41 @@ img.foto1{
  .seccion3{
 	background-color: #d5c75f;
 	display: flex;
+	
 
+}
+
+#seccion3{
+	height: 300px;
+	text-align: center;
 }
 
 #foto2{
-	width: 45%;
-	
-
-
+	width: 50%;
 }
 
 #foto3{
-	width: 45%;
-	
+	width: 50%;	
 }
 
 img.paisaje{
-	width: 80%;
-	
-	transition: 1s;
-	box-shadow: 2px 2px #02010a;
-     margin: 100px 100px 100px 75px;
-     
+	 width: 80%;
+     transition: 1s;
+	 box-shadow: 2px 2px #02010a;
+     margin: 0 auto;
+     margin-top: 40px;
+     margin-left: 50px;
+
 }
 
 img.retrato{
 	width: 80%;
-	height: 185px;
-	margin:100px 200px 100px 100px;
+	height: 200px;
 	transition: 1s;
 	box-shadow: 2px 2px #02010a;
+	margin: 0 auto;
+	margin-top: 40px;
+
 }
 
 
@@ -159,7 +165,8 @@ img.retrato:hover{
 #b4{
 	width: 20%;
 	padding: 2%;
-	text-align: center;
+	text-align: center ;
+
 
 }
 
@@ -214,6 +221,130 @@ animation: animacion1 1s ;
 
 
 
+
+
+@media screen and (min-width: 900px){
+	.wrapper{
+	width: 900px;
+	margin-left: 25%;
+}
+}
+
+@media screen and (max-width: 899px){
+	
+	.wrapper{
+		width: 100%;
+		margin
+	}
+
+
+header {
+display: flex;
+flex-direction: column;
+
+}
+
+.seccion3 {
+display: flex;
+flex-direction: column;
+width: 100% !important;
+text-align: center !important;
+
+}
+
+.seccion4 {
+display: flex;
+flex-direction: column;
+text-align: justify !important;
+}
+
+footer h2{
+	text-align: justify !important;
+}
+
+header a{
+	text-align: center !important;
+}
+
+.b1{
+	display: flex;
+	width: 100% !important;
+	height: 30px;
+	margin-left: 40px;
+
+}
+.b2{
+	
+	display: flex;
+	width: 100% !important;
+	margin-left: 120px;
+	height: 60px;
+	padding: 1px;
+	
+}
+
+.b4{
+display: flex;
+width: 100% !important;
+display: flex;
+height:300px !important;
+text-align: center !important;
+}
+
+.b5{
+display: flex;
+width: 100% !important;
+height:300px !important;
+}
+
+#seccion3{
+	height: 600px;
+}
+
+#paisaje{
+ width: 80%;
+ margin-left: 1%;
+ margin-top: 7%;
+}
+
+#retrato{
+ width: 80%;
+ margin-top: 7%;	
+}
+
+
+
+
+.b6{
+width: 100% !important;
+}
+
+.b7{
+width: 100% !important;
+}
+
+.b8{
+width: 100% !important;
+}
+
+.b9{
+	width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+	
 
 
 

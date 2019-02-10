@@ -11,10 +11,7 @@ body{
     background-color: #02010a;
 }
 
-.contenido{
-	width: 900px;
-	margin-left: 25%;
-	}
+
 
 header{
 	background-color: #5b7989;
@@ -44,10 +41,13 @@ header{
 
 #menu a{
 	color: white;
-	text-decoration: none;
+	
 	font-size: 20px;
 }
 
+#paisajes{
+	text-decoration: none;
+}
 
 .Galeria{
 	background-color: #d5c75f;
@@ -210,3 +210,102 @@ animation: animacion1 1s ;
 
 
 }
+
+
+
+
+
+@media screen and (min-width: 900px){
+	.wrapper{
+	width: 900px;
+	margin-left: 25%;
+}
+}
+
+@media screen and (max-width: 899px){
+	
+	.wrapper{
+		width: 100%;
+		margin
+	}
+
+
+header {
+display: flex;
+flex-direction: column;
+
+}
+
+.Galeria {
+display: flex;
+flex-direction: column;
+width: 100% !important;
+text-align: center !important;
+text-align: center !important;
+}
+
+.seccion4 {
+display: flex;
+flex-direction: column;
+text-align: justify !important;
+}
+
+footer h2{
+	text-align: justify !important;
+}
+
+header a{
+	text-align: center !important;
+}
+
+.b1{
+	display: flex;
+	width: 100% !important;
+	height: 30px;
+	margin-left: 40px;
+
+}
+.b2{
+	
+	display: flex;
+	width: 100% !important;
+	margin-left: 120px;
+	height: 60px;
+	padding: 1px;
+}
+
+#Columna1{
+    width: 100% !important;
+    
+}
+#Columna2{
+	width: 100% !important;
+}
+#Columna3{
+	width: 100% !important;
+}
+
+#foto1{
+ width: 80%;
+}
+
+
+
+#b1{
+width: 100% !important;
+
+}
+
+.b7{
+width: 100% !important;
+
+}
+
+.b8{
+width: 100% !important;
+}
+
+.b9{
+	width: 100% !important;
+}
+
